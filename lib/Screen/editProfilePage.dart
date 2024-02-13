@@ -396,6 +396,7 @@ class _EditProfilePageState extends State<EditProfilePage> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   CustomActionButton(
+                    custom_width: 320,
                     onPressed: () {
                       updateProfileToFirebase(widget.selectedPatient);
                     },
